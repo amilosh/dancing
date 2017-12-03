@@ -13,7 +13,7 @@ public class StepService implements StepServiceInterface{
 
     @Override
     public void addCountOfSteps(int countOfSteps) {
-        
+
     }
 
     @Override
