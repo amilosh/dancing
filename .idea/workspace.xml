@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5588ff16-48e5-4f21-b1cf-4707c8fd5c73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dancing.iml" afterPath="$PROJECT_DIR$/dancing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/it/academy/service/StepService.java" afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/service/StepService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/it/academy/service/StepServiceInterface.java" afterPath="$PROJECT_DIR$/src/main/java/by/it/academy/service/StepServiceInterface.java" />
     </list>
     <ignored path="dancing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,21 +52,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StepService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StepService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/it/academy/service/StepService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="96">
+              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding>
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StepServiceInterface.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StepServiceInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/it/academy/service/StepServiceInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="333">
+              <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -123,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/main/java/by/it/academy/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/it/academy/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/it/academy/service/StepServiceInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/it/academy/service/StepService.java" />
       </list>
     </option>
   </component>
@@ -530,12 +535,12 @@
       <workItem from="1512230396846" duration="575000" />
       <workItem from="1512230988621" duration="884000" />
       <workItem from="1512292160443" duration="1082000" />
-      <workItem from="1512296009563" duration="3548000" />
+      <workItem from="1512296009563" duration="4016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6089000" />
+    <option name="totallyTimeSpent" value="6557000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -715,14 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/it/academy/service/StepService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/it/academy/entity/DancingProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -741,9 +738,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/it/academy/service/StepServiceInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="333">
+          <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/it/academy/service/StepService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

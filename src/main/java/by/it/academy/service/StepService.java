@@ -6,12 +6,32 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class StepService {
+public class StepService implements StepServiceInterface{
 
     @Autowired
     private StepCounter stepCounter;
 
-    public final DancingProgram getNumberOfStep(final Integer[] sequence) {
+    @Override
+    public void addCountOfSteps(int countOfSteps) {
+        
+    }
+
+    @Override
+    public void addSequence(int[] cells) {
+
+    }
+
+    @Override
+    public int getCountOfStepsById(int id) {
+        return 0;
+    }
+
+    @Override
+    public int getCountOfStepsBySequence(int[] cells) {
+        return 0;
+    }
+
+    public DancingProgram getNumberOfStep(final Integer[] sequence) {
         stepCounter.init(sequence);
         return stepCounter.getCount();
     }

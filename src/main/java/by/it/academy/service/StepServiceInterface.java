@@ -1,5 +1,7 @@
 package by.it.academy.service;
 
+import by.it.academy.entity.DancingProgram;
+
 public interface StepServiceInterface {
     /**
      * метод добавления {@link by.it.academy.entity.DancingProgram}
@@ -25,5 +27,11 @@ public interface StepServiceInterface {
      */
     int getCountOfStepsBySequence (int[] cells);
 
+    /**
+     * Метод возвращает количество шагов участника
+     * @param sequence
+     * @return stepCounter.getCount()
+     */
+    DancingProgram getNumberOfStep(final Integer[] sequence);
 
 }
