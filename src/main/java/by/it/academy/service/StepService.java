@@ -1,5 +1,6 @@
 package by.it.academy.service;
 
+import by.it.academy.DAO.DancingDAO;
 import by.it.academy.action.StepCounter;
 import by.it.academy.entity.DancingProgram;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,25 +11,18 @@ public class StepService implements StepServiceInterface{
 
     @Autowired
     private StepCounter stepCounter;
+    @Autowired
+    private DancingDAO dancingDAO;
+
 
     @Override
-    public void addCountOfSteps(int countOfSteps) {
-
+    public void addDancingProgram(DancingProgram dancingProgram) {
+        dancingDAO.addDancingProgram(dancingProgram);
     }
 
     @Override
-    public void addSequence(int[] cells) {
-
-    }
-
-    @Override
-    public int getCountOfStepsById(int id) {
-        return 0;
-    }
-
-    @Override
-    public int getCountOfStepsBySequence(int[] cells) {
-        return 0;
+    public DancingProgram getDancingProgramBySequence(int[] danceSequence) {
+        return dancingDAO.getDancingProgramBySequence(danceSequence);
     }
 
     public DancingProgram getNumberOfStep(final Integer[] sequence) {
