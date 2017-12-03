@@ -12,7 +12,6 @@ public class DancingDAOImpl implements DancingDAO {
     @PersistenceContext
     private EntityManager entityManager;
 
-
     @Override
     public void addDancingProgram(DancingProgram dancingProgram) {
         entityManager.persist(dancingProgram);
