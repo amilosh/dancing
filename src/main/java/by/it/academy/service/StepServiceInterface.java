@@ -7,6 +7,4 @@ public interface StepServiceInterface {
     void addDancingProgram (DancingProgram dancingProgram);
     DancingProgram getDancingProgramBySequence (int[] danceSequence);
 
-    DancingProgram getNumberOfStep(final Integer[] sequence);
-
 }

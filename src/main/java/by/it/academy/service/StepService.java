@@ -7,23 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class StepService implements StepServiceInterface{
+public class StepService{
 
     @Autowired
     private StepCounter stepCounter;
-    @Autowired
-    private DancingDAO dancingDAO;
-
-
-    @Override
-    public void addDancingProgram(DancingProgram dancingProgram) {
-        dancingDAO.addDancingProgram(dancingProgram);
-    }
-
-    @Override
-    public DancingProgram getDancingProgramBySequence(int[] danceSequence) {
-        return dancingDAO.getDancingProgramBySequence(danceSequence);
-    }
 
     public DancingProgram getNumberOfStep(final Integer[] sequence) {
         stepCounter.init(sequence);
